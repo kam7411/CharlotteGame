@@ -1100,6 +1100,7 @@ class Hud:
 class App:
     def __init__(self):
         print ("Game Start")
+        
         pyxel.init(192, 168, caption="Charlotte Birthday", fps=60)
         pyxel.load("assets/resources.pyxres")
         self.water = Water()
